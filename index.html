@@ -3,11 +3,16 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width">
-        <title>replit</title>
+        <title>liminal</title>
         <link href="style.css" rel="stylesheet" type="text/css" />
     </head>
-    <body>
-        <div class="bg"></div>
+    <body class="bg">
+        <div class="wrapper">
+            <input id="button" type="button" value="enter" onclick="play()">
+        </div>
+        <audio loop id="audio">
+            <source src="liminal.mp3" type="audio/mpeg">
+        </audio>
         <script src="script.js"></script>
     </body>
 </html>
